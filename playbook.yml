@@ -6,10 +6,6 @@
   become: yes
   gather_facts: yes
   roles:
-    - role: packer
-    - role: vagrant
-    - role: virtualbox
-    - role: kvm
     - role: docker
     # - role: podman
     # - role: lxd
